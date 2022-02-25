@@ -9,7 +9,15 @@ ul{
 }
 
 h2{
+	text-transform: uppercase;
+	margin-top: 0.9em;
+	margin-bottom: 0.4em;
+	font-weight: bold;
+}
 
+footer{
+	border-top: solid;
+	border-width: 2px;
 }
 
 .sobreMim {
@@ -21,6 +29,16 @@ h2{
 .sobreContato{
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.sobreProfissoesLinguagensConhecidasImagens{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.sobreContatoLinkedin{
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .sobreContatoTelefone, .sobreContatoEndereco{
