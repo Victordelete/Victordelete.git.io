@@ -1,28 +1,17 @@
-body{
-	display: block;
-}
-
 .cabecalho {
 	text-align: center;
-	font-size: 0.8rem;
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 0.23em;
 	color: #fff;
-	background-color: #054BC0;
-	position: fixed;
-	right: 0;
-	left: 0;
-	top: 0;
-
-	padding-left: calc((100% - 960px)/2);
-	padding-right: calc((100% - 960px)/2);
+	background-color: #1f45fa;
+	letter-spacing: 0.23em; 
 }
 
 .textoCabecalho{
 	display: inline-block;
 	margin: 10px;
-	font-size: 2em;
+	font-weight: bold;
+	font-size: 15px;
 }
 
 .textoCabecalho a{
@@ -62,8 +51,3 @@ body{
 		padding-right: calc((100% - 960px)/2);
 	}
 }
-
-
-
-
-
